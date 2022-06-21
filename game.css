@@ -1,0 +1,43 @@
+#game{
+	width:600px;
+	margin:40px auto;
+	border:solid silver 1px;
+	display:flex;
+	flex-wrap:wrap;
+}
+#counter{
+	width:600px;
+	font-size:200%;
+	text-align:center;
+	border:solid silver 2px;
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin-left:-300px;
+}
+
+.card{
+	width:80px; height:80px;
+	display:block;
+	margin:10px;
+	background:#8f8 no-repeat center;
+	background-size:70px;
+	cursor:help;
+}
+.r:before{
+	content:"?";
+	color:red;
+	display:block;
+	font-size:300%;
+	line-height:80px;
+	text-align:center;
+}
+/* .card1{	background-image:url(cards/k101.png);} */
+
+
+
+
+
+
+
+
